@@ -35,7 +35,7 @@ while True:
       # primer_numero = int(input("Ingrese el primer Numero: "))
       # segundo_numero = int(input("Ingrese el segundo Numero: "))
       # total = primer_numero + segundo_numero
-      # print(f"La suma de {primer_numero} + {segundo_numero} es: {total}.")
+      # print(f"La suma de x + x es: x")
     elif selection == '2': # Resta
       resta_uno = int(input("Ingrese el primer Numero: "))
       resta_dos = int(input("Ingrese el segundo Numero: "))
