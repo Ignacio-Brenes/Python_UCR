@@ -23,17 +23,24 @@ menu['4']="División"
 menu['5']="Factorial"
 menu['6']="Potencia"
 menu['7']="SALIR"
+
 while True:
     options=menu.keys()
     #options.sort() #ni idea que hace este sort
     for entry in options: 
         print (entry, menu[entry])
-
     selection=input("Please Select:") 
-    if selection =='1': 
-      print ("\n Suma \n" )
-    elif selection == '2': 
-      print ("\n Resta \n")
+    if selection =='1': # Suma
+      # Aqui vamos a crear una lista
+      # primer_numero = int(input("Ingrese el primer Numero: "))
+      # segundo_numero = int(input("Ingrese el segundo Numero: "))
+      # total = primer_numero + segundo_numero
+      # print(f"La suma de {primer_numero} + {segundo_numero} es: {total}.")
+    elif selection == '2': # Resta
+      resta_uno = int(input("Ingrese el primer Numero: "))
+      resta_dos = int(input("Ingrese el segundo Numero: "))
+      total = resta_uno - resta_dos
+      print(f"La resta de ambos valores es: {total}.")
     elif selection == '3':
       print ("\n Multiplicación \n")
     elif selection == '4':
@@ -43,7 +50,7 @@ while True:
     elif selection == '6':
       print ("\n Potencia \n")
     elif selection == '7':
-      print("\n Muchas Gracias! \n")
+      print("Muchas Gracias! \n")
       break      
     else: 
       print ("\n Opción no válida \n" )
