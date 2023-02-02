@@ -55,5 +55,5 @@ while True:
     else: 
       print ("\n Opción no válida \n" )
       #LINEA DE PRUEBA
-      #LINEA DE PRUEBA 3
       #LINEA DE PRUEBA 02
+      #LINEA DE PRUEBA 03
