@@ -5,18 +5,26 @@
 # Funcion de la Operacion Suma
 def suma():    
     lista = []
-    sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para finalizar):"))
+    sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para regresar al Menu de Opciones):"))
     suma_numeros = 0
     while sumar !=0:
         lista.append(sumar)
-        sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para finalizar):"))
+        sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para regresar al Menu de Opciones):"))
     print("Los numeros ingresados son: ")
     print(lista)
     for total in lista:
         suma_numeros += total
     print(f"El total de la suma de {lista} es:")
     print(suma_numeros)
-# suma()
+#suma()
+
+# Funcion de la Operacion Resta
+def resta():
+    resta_uno = int(input("Ingrese el primer Numero: "))
+    resta_dos = int(input("Ingrese el segundo Numero: "))
+    total = resta_uno - resta_dos
+    print(f"La resta de ambos valores es: {total}.")
+#resta()
 
 #INICIA MENU
 
@@ -37,12 +45,9 @@ while True:
         print (entry, menu[entry])
     selection=input("Please Select:") 
     if selection =='1': # Suma
-      suma() # Invocacion de la funcion Suma()
+      suma() # Invocacion de la funcion suma()
     elif selection == '2': # Resta
-      resta_uno = int(input("Ingrese el primer Numero: "))
-      resta_dos = int(input("Ingrese el segundo Numero: "))
-      total = resta_uno - resta_dos
-      print(f"La resta de ambos valores es: {total}.")
+      resta() # Invocacion de la funcion resta()
     elif selection == '3':
       print ("\n Multiplicación \n")
     elif selection == '4':
