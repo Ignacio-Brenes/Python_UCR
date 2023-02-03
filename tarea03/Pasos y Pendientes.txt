@@ -13,7 +13,7 @@
 #Paso 04: Usar una lista para las operaciones que reciben 2 o más números.
 #Paso 05: Para las operaciones de 2 números usar una lista
 
-# Notas adicionales
+** # Notas adicionales **
 1 - Crear funciones para cada operacion matematica, y para el menu de opciones. Esto las hace reutilizables
 y podemos invocar las funciones de acuerdo a la selecion del usuario.
 
