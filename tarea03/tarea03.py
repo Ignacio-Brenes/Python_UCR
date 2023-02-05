@@ -29,18 +29,18 @@ def resta():
 #INICIA MENU
 
 menu = {}
-menu['1']="Suma" 
 menu['2']="Resta"
 menu['3']="Multiplicación"
-menu['4']="División"
+menu['7']="SALIR"
+menu['1']="Suma"
 menu['5']="Factorial"
 menu['6']="Potencia"
-menu['7']="SALIR"
+menu['4']="División"
 
 while True:
     print("\n<--- Menu de Opciones --->")
     options=menu.keys()
-    #options.sort() #ni idea que hace este sort ---> Este sort lo que hace es ordenar las llaves del Diccionario [1, 2, 3, 4, 5, 6, 7]
+    options.sort() #ni idea que hace este sort ---> Este sort lo que hace es ordenar las llaves del Diccionario [1, 2, 3, 4, 5, 6, 7]
     for entry in options: 
         print (entry, menu[entry])
     selection=input("Please Select:") 
