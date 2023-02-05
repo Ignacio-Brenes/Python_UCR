@@ -1,9 +1,10 @@
 # Esta es una funcion para sumar los numeros ingresados por un usuario
 # El usuario puede ingresar la cantidad de numeros que desee
 # Se debe ingresar cero para finalizar
+# El resultado de la suma se guarda en el file "output_file_suma.txt"
 
 def suma():
-    
+    '''Esta es la funcion para sumar'''
     lista = []
     sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para finalizar):"))
     suma_numeros = 0
@@ -16,4 +17,6 @@ def suma():
         suma_numeros += total
     print(f"El total de la suma de {lista} es:")
     print(suma_numeros)
-suma()
+    output_file = open("output_file_suma.txt", "a")
+    output_file.write(f"La suma total de {lista} es: {suma_numeros}\n")
+    output_file.close()
