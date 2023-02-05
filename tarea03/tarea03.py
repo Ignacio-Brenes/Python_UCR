@@ -40,27 +40,27 @@ menu['4']="División"
 while True:
     print("\n<--- Menu de Opciones --->")
     options=menu.keys()
-    #options.sort() #ni idea que hace este sort ---> Este sort lo que hace es ordenar las llaves del Diccionario [1, 2, 3, 4, 5, 6, 7]
-    for entry in options: 
+    #options.sort() #ni idea que hace este sort ---> Este sort ya no se utiliza asi(Ver linea 43)
+    for entry in sorted(options): # Esta es la menera correcta para odernar las llaves del dicionario
         print (entry, menu[entry])
-    selection=input("Please Select:") 
+    selection=input("Please Select:")
     if selection =='1': # Suma
-      suma() # Invocacion de la funcion suma()
+        suma() # Invocacion de la funcion suma()
     elif selection == '2': # Resta
-      resta() # Invocacion de la funcion resta()
+        resta() # Invocacion de la funcion resta()
     elif selection == '3':
-      print ("\n Multiplicación \n")
+        print ("\n Multiplicación \n")
     elif selection == '4':
-      print ("\n División \n")
+        print ("\n División \n")
     elif selection == '5':
-      print ("\n Factorial \n")
+        print ("\n Factorial \n")
     elif selection == '6':
-      print ("\n Potencia \n")
+        print ("\n Potencia \n")
     elif selection == '7':
-      print("Muchas Gracias! \n")
-      break      
-    else: 
-      print ("\n Opción no válida \n" )
+        print("Muchas Gracias! \n")
+        break
+    else:
+        print ("\n Opción no válida \n" )
       #LINEA DE PRUEBA
       #LINEA DE PRUEBA 02
       #LINEA DE PRUEBA 03
