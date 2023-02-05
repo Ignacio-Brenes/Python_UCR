@@ -40,7 +40,7 @@ menu['4']="División"
 while True:
     print("\n<--- Menu de Opciones --->")
     options=menu.keys()
-    options.sort() #ni idea que hace este sort ---> Este sort lo que hace es ordenar las llaves del Diccionario [1, 2, 3, 4, 5, 6, 7]
+    #options.sort() #ni idea que hace este sort ---> Este sort lo que hace es ordenar las llaves del Diccionario [1, 2, 3, 4, 5, 6, 7]
     for entry in options: 
         print (entry, menu[entry])
     selection=input("Please Select:") 
