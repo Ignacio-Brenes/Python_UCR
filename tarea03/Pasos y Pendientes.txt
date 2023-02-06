@@ -14,41 +14,11 @@
 #Paso 05: Para las operaciones de 2 números usar una lista
 
 ** # Notas adicionales **
-1 - Crear funciones para cada operacion matematica, y para el menu de opciones. Esto las hace reutilizables
-y podemos invocar las funciones de acuerdo a la selecion del usuario.
-
-Ejemplo
-def suma():    
-    lista = []
-    sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para finalizar):"))
-    suma_numeros = 0
-    while sumar !=0:
-        lista.append(sumar)
-        sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para finalizar):"))
-    print("Los numeros ingresados son: ")
-    print(lista)
-    for total in lista:
-        suma_numeros += total
-    print(f"El total de la suma de {lista} es:")
-    print(suma_numeros)
-
-menu = {}
-menu['1']="Suma" 
-
-while True:
-    print("\n<--- Menu de Opciones --->")
-    options=menu.keys()
-    #options.sort() #ni idea que hace este sort
-    for entry in options: 
-        print (entry, menu[entry])
-    selection=input("Please Select:") 
-    if selection =='1': # Suma
-      suma() # Invocacion de la funcion Suma()  # <---
+1 - Cada operacion tiene una funcion en un file aparte
+2 - Todas las funciones fueron agregadas un mismo file
 
 2 - > Nueva Nota Aqui <
 
 # Pendientes
+- Invocar Funciones en el codigo principal "tarea03.py"
 
-- Crear Funciones para las operaciones matemáticas
-- Enviar Output de las operaciones a un file .txt (Se podria crear una funcion y luego invocarla 
-o agregar el paso de enviar el outpu a un file en cada una de las funciones) 

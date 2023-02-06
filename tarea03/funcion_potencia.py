@@ -9,7 +9,7 @@ def potencia():
         # Funcion pow() para obtener la potencia de un numero
         potencia = pow(base, exponte) 
         print(f"El numero {base} elevado al {exponte} es: {potencia}" )
-        # Crear file, escribir resultado y cerrar 
+        # Crear documento, escribir resultado y cerrar 
         output_file = open("output_file_potencia.txt", "a")
         output_file.write(f"\nEl numero {base} elevado al {exponte} es: {potencia}\n")
         output_file.close()
