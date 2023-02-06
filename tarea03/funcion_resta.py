@@ -15,7 +15,7 @@ def resta():
         output_file.write(f"El resultado de resta total de {resta_uno} - {resta_dos} es: {total}\n") # Appends the results to an output file
         output_file.close() # Closes the file
 
-# Preguntar al usuario si desea continua
+# Preguntar al usuario si desea continuar
         continuar = str(input("Indique (Y/N) para realizar otra resta: "))
         continuar = continuar.upper() 
         if continuar == "N":
@@ -23,4 +23,4 @@ def resta():
             break
         else:
             continue
-resta()
+
