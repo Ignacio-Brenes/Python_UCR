@@ -1,32 +1,15 @@
 # Calculadora Matematica
 
-# Definir Funciones
+'''Esta calculadora es capaz de: 
+- Sumar entre n numeros
+- Restar entre 2 numeros
+- Multiplicar entre n numeros
+- Divir entre 2 numeros
+- Obtener el Factorial de 1 numero
+- Obtener la Potencia 1 numero elevado al otro
+'''
 
-# Funcion de la Operacion Suma
-def suma():    
-    lista = []
-    sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para regresar al Menu de Opciones):"))
-    suma_numeros = 0
-    while sumar !=0:
-        lista.append(sumar)
-        sumar = int(input("Ingrese el numero que desea sumar (Ingrese 0 para regresar al Menu de Opciones):"))
-    print("Los numeros ingresados son: ")
-    print(lista)
-    for total in lista:
-        suma_numeros += total
-    print(f"El total de la suma de {lista} es:")
-    print(suma_numeros)
-#suma()
-
-# Funcion de la Operacion Resta
-def resta():
-    resta_uno = int(input("Ingrese el primer Numero: "))
-    resta_dos = int(input("Ingrese el segundo Numero: "))
-    total = resta_uno - resta_dos
-    print(f"La resta de ambos valores es: {total}.")
-#resta()
-
-#INICIA MENU
+# INICIA MENU
 
 menu = {}
 menu['2']="Resta"
@@ -38,29 +21,36 @@ menu['6']="Potencia"
 menu['4']="División"
 
 while True:
+    # Odernar y imprimir opciones del menu
     print("\n<--- Menu de Opciones --->")
     options=menu.keys()
-    #options.sort() #ni idea que hace este sort ---> Este sort ya no se utiliza asi(Ver linea 43)
-    for entry in sorted(options): # Esta es la menera correcta para odernar las llaves del dicionario
+    for entry in sorted(options):
         print (entry, menu[entry])
+
+    # Selecionar opcion
     selection=input("Please Select:")
-    if selection =='1': # Suma
-        suma() # Invocacion de la funcion suma()
-    elif selection == '2': # Resta
-        resta() # Invocacion de la funcion resta()
+
+    # Opcion seleccionada y invovacaion de funciones
+    if selection =='1':
+        import modulo_funciones
+        modulo_funciones.suma()
+    elif selection == '2': 
+        import modulo_funciones
+        modulo_funciones.resta()
     elif selection == '3':
-        print ("\n Multiplicación \n")
+        import modulo_funciones
+        modulo_funciones.multiplicacion()
     elif selection == '4':
-        print ("\n División \n")
+        import modulo_funciones
+        modulo_funciones.division()
     elif selection == '5':
-        print ("\n Factorial \n")
+        import modulo_funciones
+        modulo_funciones.factorial()
     elif selection == '6':
-        print ("\n Potencia \n")
+        import modulo_funciones
+        modulo_funciones.potencia()
     elif selection == '7':
         print("Muchas Gracias! \n")
         break
     else:
         print ("\n Opción no válida \n" )
-      #LINEA DE PRUEBA
-      #LINEA DE PRUEBA 02
-      #LINEA DE PRUEBA 03

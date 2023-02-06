@@ -47,7 +47,7 @@ def resta():
         resta_dos = int(input("Ingrese el segundo Numero: "))
         # Formula para obtner el resultado
         total = resta_uno - resta_dos
-        print(f"El resultado de la resta de ambos valores es: {total}.")
+        print(f"El resultado de la resta de ambos valores es: {total}")
 
         # Crear documento, escribir resultado y cerrar 
         output_file = open("output_file_resta.txt", "a")
