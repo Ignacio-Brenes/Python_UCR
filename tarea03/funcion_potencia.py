@@ -19,4 +19,4 @@ def potencia():
         if continuar == "N":
             print("\nGracias!")
             break
-potencia()
+
