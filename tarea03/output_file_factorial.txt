@@ -1,4 +1,0 @@
-El factorial de 2 es: 2
-El factorial de 3 es: 6
-El factorial de 4 es: 24
-El factorial de 5 es: 120
