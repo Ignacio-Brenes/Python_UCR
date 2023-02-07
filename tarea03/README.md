@@ -9,9 +9,9 @@
 
 **LINKS:**
 
-[![Link directo codigo tarea03_calculadora.py](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
+[![Link directo codigo tarea03_calculadora.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/main/tarea03/tarea03_calculadora.py)]
 
-[![Link directo a codigo modulo_funciones.py](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
+[![Link directo a codigo modulo_funciones.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/main/tarea03/modulo_funciones.py)]
 <br />
 <br />
 
@@ -19,9 +19,9 @@
 
 ### Esta tarea consta de 2 documentos:
 
-[![tarea03_calculadora.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/tarea_grupal01/tarea03/tarea03_calculadora.py)]
+[![tarea03_calculadora.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/main/tarea03/tarea03_calculadora.py)]
 
-[![modulo_funciones.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/tarea_grupal01/tarea03/modulo_funciones.py)]
+[![modulo_funciones.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/main/tarea03/modulo_funciones.py)]
 
 **Consideraciones a tomar durante la ejecucion de la calculadora:**
 
@@ -48,7 +48,7 @@ de donde esta ejecutando tarea03_calculadora.py.
 6. Potencia: 1 número elevado al otro
 <!--END_SECTION:activity-->
 
-[![Link directo al codigo Tarea 3](https://github.com/Ignacio-Brenes/Python_UCR/blob/tarea_grupal01/tarea03/tarea03_calculadora.py)]
+[![Link directo al codigo Tarea 3](https://github.com/Ignacio-Brenes/Python_UCR/blob/main/tarea03/tarea03_calculadora.py)]
 
 <br />
 <br />
