@@ -5,7 +5,7 @@
 
 **Estudiantes:** 
 - Luis Andres Sanchez Núñez.
-- Ignancio Brenes
+- Ignacio Brenes.
 
 **LINKS:**
 
