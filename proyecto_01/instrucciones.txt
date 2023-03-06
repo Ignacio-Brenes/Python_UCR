@@ -1,0 +1,38 @@
+Blackjack Game
+
+Esta es una implementación del juego Blackjack, también conocido como  21. 
+El juego inicia creando un mazo de cartas, y lo revuelve. Después pregunta por el nombre del jugador y le brinda 2 cartas; a la casa le brinda una carta visible, y otra carta invisible para el usuario.
+El jugador puyede escoger recibir una carta más al escribir la palabra otra o bién puede quedarse como está simplemente presionando la tecla enter.
+La casa seguirá solicitando cartas hasta que llegue a un mínimo de 17 puntos.
+FInalmente, el ganador se determina con la suma de los puntos de las cartas.
+
+Inicio
+
+Para poder correr este juego se debe tener Python instalado en la computadora, se puede descargar gratuitamente desde: https://www.python.org/downloads/
+
+Con Pytho instalado, simplemente copia y pega en código en la terminal, y ejecútalo.
+
+Modo de juego
+
+Cuando ejecutes el juego, el sistema te preguntará tu nombre. Seguidamente, el juego dará inicio y se te brindarán 2 cartas. El "dealer" recibirá uan carta. El valor de las cartas es:
+
+Cartas regulares, del 2 al 10
+J, Q, K: 10 puntos
+As: 1 u 11 puntos
+Tendrás la opción que pedir carta o de quedarte con las actuales.
+
+El "dealer" seguirá pidiendo cartas hasta que llegue a un mínimo de 17 puntos. SI la suma de las cartas del dealer es mayor a 21, tú ganas el juego. Si la suma de las cartas del dealer es mayor al tuyo, pero no es mayor de 21, pierdes el juego.
+
+Nota: Se permite el empate.
+
+Explicación del código
+
+El código inicia creando un deck de cartas de 52 unidades (4 categorías y 13 rangos) El deck es aleatorio utilizando la funcion random.shuffle
+
+El juego solicita el nombre del jugador, y entra en un loop hasta que el jugador gane o pierda.
+
+Nota: Intenté guardar los resultados en un TXT utilizando:
+with open("resultados.txt", "a") as f:
+   f.write("ACA IBA EL RESULTADOS")
+
+Pero no me sirvió "IndentationError: expected an indented block after 'with' stat"
